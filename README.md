@@ -4,7 +4,7 @@
 ## Introduction
 This is the official code of paper "Semi-supervised Models are Strong Unsupervised Domain Adaptation Learners". 
 It is based on pure PyTorch and presents the high effectiveness of SSL methods on UDA tasks. You can easily develop new algorithms, or readily apply existing algorithms.
-Codes for UDA methods and "UDA + SSL" are given in another project.
+Codes for UDA methods and "UDA + SSL" are given in [Here](https://github.com/zhjscut/Bridging_UDA_SSL).
 
 The currently supported algorithms include:
 
@@ -49,12 +49,11 @@ Any pull requests or issues are welcome.  Models of other SSL methods on UDA tas
 If you use this toolbox or benchmark in your research, please cite this project. 
 
 ```latex
-@inproceedings{SSL2UDA,
-  author = {xxx},
-  title = {Semi-supervised Models are Strong Unsupervised Domain Adaptation Learners},
-  year = {2021},
-  publisher = {xxx},
-  journal = {xxx},
+@article{zhang2021semi,
+  title={Semi-supervised Models are Strong Unsupervised Domain Adaptation Learners},
+  author={Zhang, Yabin and Zhang, Haojian and Deng, Bin and Li, Shuai and Jia, Kui and Zhang, Lei},
+  journal={arXiv preprint arXiv:2106.00417},
+  year={2021}
 }
 ```
 
